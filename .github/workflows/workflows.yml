@@ -1,7 +1,7 @@
 name: hello world
 on: [workflow_dispatch]
-job: 
+jobs: 
     hello_world:
         runs-on: ubuntu-latest
         steps:
-        - run: python3 main.py
+        - run: ping www.google.com
